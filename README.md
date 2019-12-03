@@ -1,9 +1,9 @@
 This is an action to publish templates to Nosto.
 
-###Prerequisites
+### Prerequisites
 In order to use this action a Nosto token is needed for authentication
 
-###Adding secret token
+### Adding secret token
 Get the [settings token](https://help.nosto.com/en/articles/613616-settings-authentication-tokens) from Nosto dashboard.
 
 Store the token in GitHub by following these steps: 
@@ -12,7 +12,7 @@ Store the token in GitHub by following these steps:
 
 2. Paste in your token and click on `Add secret`
 
-###Implementation
+### Implementation
 Create a new `yml` file under `.github/workspaces`
 
 Add the following lines
@@ -39,7 +39,7 @@ Two inputs are required by the action
 2. `template-directory` which is the path to the templates directory
 
 
-####Example
+#### Example
 An example of the workflow can be found in:
 
 https://github.com/olsi-qose/velocity-templates
