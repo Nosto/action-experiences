@@ -9,5 +9,5 @@ inputs:
     required: true
     description: 'The directory containing the templates'
 runs:
-  using: 'node12'
-  main: 'lib/main.js'
+  image: 'Dockerfile'
+
