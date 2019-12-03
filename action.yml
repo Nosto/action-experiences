@@ -14,6 +14,3 @@ inputs:
 runs:
   using: 'docker'
   image: 'Dockerfile'
-  env:
-    - NOSTO_TOKEN: ${{ inputs.nosto-token }}
-    - TEMPLATE_DIRECTORY: ${{ inputs.template-directory }}
