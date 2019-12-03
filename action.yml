@@ -1,0 +1,13 @@
+name: 'Recommendation Experience Publisher'
+description: 'Publish your recommendation experiences to Nosto'
+author: 'Nosto'
+inputs: 
+  GITHUB_TOKEN:
+    description: 'The GITHUB_TOKEN secret'
+  NOSTO_TOKEN:
+    description: 'The NOSTO_TOKEN secret'
+  configuration-path:
+    description: 'The directory containing the templates'
+runs:
+  using: 'node12'
+  main: 'lib/main.js'
