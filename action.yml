@@ -5,12 +5,15 @@ branding:
   icon: 'layout'  
   color: 'red'
 inputs:
-  NOSTO_TOKEN:
+  nosto-token:
     required: true
     description: 'The NOSTO_TOKEN secret'
-  TEMPLATE_DIRECTORY:
+  template-directory:
     required: true
     description: 'The directory containing the templates'
 runs:
+  using: 'docker'
   image: 'Dockerfile'
-
+  args:
+    - ${{ inputs.nosto-token }}
+    - ${{ inputs.template-directory }}
