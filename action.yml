@@ -1,7 +1,10 @@
 name: 'Recommendation Experience Publisher'
 description: 'Publish your recommendation experiences to Nosto'
 author: 'Nosto'
-inputs: 
+branding:
+  icon: 'layout'  
+  color: 'red'
+inputs:
   NOSTO_TOKEN:
     required: true
     description: 'The NOSTO_TOKEN secret'
