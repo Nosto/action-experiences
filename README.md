@@ -8,7 +8,7 @@ Get the [settings token](https://help.nosto.com/en/articles/613616-settings-auth
 
 Store the token in GitHub by following these steps: 
 
-1. Navigate to `Settings` > `Secrets` and click `Add a new secret.
+1. Navigate to `Settings` > `Secrets` and click `Add a new secret`.
 
 2. Paste in your token and click on `Add secret`
 
